@@ -1,0 +1,22 @@
+{
+  "name": "scratch",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "cucumber-js -f json:results/results.json -f @cucumber/pretty-formatter",
+    "report": "node ./features/support/reporter.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@cucumber/cucumber": "^7.3.2",
+    "@cucumber/pretty-formatter": "^1.0.0-alpha.2",
+    "chromedriver": "^99.0.0",
+    "cucumber-html-reporter": "^5.5.0",
+    "geckodriver": "^3.0.1",
+    "msedgedriver": "^91.0.0",
+    "selenium-webdriver": "^4.1.1"
+  }
+}
